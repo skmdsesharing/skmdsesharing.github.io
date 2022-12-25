@@ -2,6 +2,7 @@
 <html>  
   <head>
     <link rel="icon" href="logo.jpg" type="image/icon type">
+    <link rel="stylesheet" href="popupstyle.css">
     <title>Home | skm.dsesharing</title>
     <base target="_top">
     <STYLE>
@@ -44,8 +45,7 @@
       font: italic smaller sans-serif;
       padding: 3px;
       text-align: center;
-  }
-
+    }
     </STYLE>
   </head>
 
@@ -79,6 +79,38 @@
       <a target="_blank" href="https://www.youtube.com/channel/UCVqW1A1OvT6lSOQX54lt4ZQ"> Videos </a> 
       </div>
 
+      <div id="popup" class="x__subscribe-popup x__subscribe-popup--done-animating">
+        <div class="x__subscribe-popup__image"></div>
+        <div class="x__subscribe-popup__content">
+          <div class="x__close"><button onclick="myFunction()" style="background-color: transparent; border: none;">
+          <svg width="14" height="14" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Close">            
+            <title>Close</title>
+              <desc>Click to close popup</desc>
+              <g fill="#FFF" fill-rule="nonzero">
+                <rect transform="rotate(45 6.839 6.839)" x="-2.161" y="6.339" width="18" height="1" rx=".5"></rect>
+                <rect transform="scale(-1 1) rotate(45 0 -9.672)" x="-2.161" y="6.339" width="18" height="1" rx=".5"></rect>
+              </g>
+            </svg></button></div>
+          <div class="x__content">
+            <span class="x__content__title">2023中文義教One Day Full course</span>
+            <span class="x__content__copy">火速報名🔥</span>
+            <a class="x__button" id="subscribePopup" href="https://docs.google.com/forms/d/e/1FAIpQLScbIohZAx8ktbhmpYmvtrz95zActSyd6Uztb78cr_HXXnAIEQ/viewform">
+                <span class="x__button-align"><span class="x__button-align-text">Sign up here!</span></span></a>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("popup");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+      </script>
+
       <br> <br> <br>
 
       <div class="title">
@@ -92,7 +124,7 @@
       </div>
 
       <br> <br>
-
+      
       <figure> 
       <img width="600px" src="usims.jpeg" alt="Skm.dsesharing Voluntary Teaching Team @ University Simulations (USIMS) 2022">      
       <figcaption> Skm.dsesharing Voluntary Teaching Team @ University Simulations (USIMS) 2022 </figcaption>
