@@ -1,40 +1,47 @@
 A {text-decoration: none; color: #000000 } 
-    .link{
-      font-size:15px;
-      font-style: italic;
-      font-family: 'Trebuchet MS', sans-serif;      
-    }   
-    .title {
-      font-size: 100px;
-      font-family: 'Trebuchet MS', sans-serif;
-      color: #3EB29E;
-    }
-    .subtitle { 
-      font-size: 25px;
-      font-family: 'Trebuchet MS', sans-serif;
-      color: #3EB29E; 
-    }
-    .quote {
-      background-color: #3EB29E;
-      color:#FFFDF8;
-      font-size: 21px;
-      font-family: 'Trebuchet MS', sans-serif;
-    }
-    .ac {
-      color:#3EB29E;
-      font-size: 14px;
-      font-family: 'Trebuchet MS', sans-serif;
-    }
-    p.test {
-        -moz-hyphens:auto;
-        -ms-hyphens:auto;
-        -webkit-hyphens:auto;
-        hyphens:auto;
-        word-wrap:break-word;
-    }
-    figcaption {      
-      color: #222;
-      font: italic smaller sans-serif;
-      padding: 3px;
-      text-align: center;
-    }
+
+nav{
+  font-size:15px;
+  font-style: italic;
+  font-family: 'Trebuchet MS', sans-serif;      
+}   
+
+.title {
+  font-size: 100px;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #3EB29E;
+}
+
+.subtitle { 
+  font-size: 25px;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #3EB29E; 
+}
+
+.quote {
+  background-color: #3EB29E;
+  color:#FFFDF8;
+  font-size: 21px;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.ac {
+  color:#3EB29E;
+  font-size: 14px;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+p.test {
+    -moz-hyphens:auto;
+    -ms-hyphens:auto;
+    -webkit-hyphens:auto;
+    hyphens:auto;
+    word-wrap:break-word;
+}
+
+figcaption {      
+  color: #222;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
