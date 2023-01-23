@@ -147,9 +147,9 @@
     }
     /*! CSS Used from: Embedded */
     .x__subscribe-popup {
-      -webkit-animation: slideIn 0.8s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0.1s
+      -webkit-animation: slideIn 0.8s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0.1s /*pop up delay*/
         forwards;
-      animation: slideIn 0.8s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0.1s forwards;
+      animation: slideIn 0.8s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0.1s forwards; /*pop up delay*/
       border-radius: 8px;
       bottom: 30px;
       box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.5);
@@ -183,7 +183,7 @@
     }
     .x__subscribe-popup__image {
       width: 540px; /*change image size*/
-      background-image: url(./newevent.jpg); /*change image link*/
+      background-image: url(./newevent.jpeg); /*change image link*/
       background-size: cover;
       /* border-radius: 10px 0 0 10px; */
     }
